@@ -37,50 +37,100 @@
     align-items: center;
 }
 .main-homepage img{
-    width: 80%;
+    width: 90%;
+    height: 50%;
     border-radius: 15px;
 }
 
-.hjertesaker{
-    margin-top: 40px;
-    width: 100%;
+
+.IM-på-kartet{
+    margin-top: 80px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.IM-på-kartet-innhold{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-evenly;
+}
+
+.IM-på-kartet img{
+    width: 50%;
+}
+
+
+
+.hjertesaker-overskrift{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -50px;
+}
+
+.hjertesaker{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
 .sakcontainer{
-    margin-top: 150px;
     width: 100%;
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 30px;
+    transition: 1s;
 
+}
+
+.sakcontainer :hover{
+    transform: scale(1.04);
+    z-index: 2;
+    color: rgb(232, 175, 61);
+    font-weight:550;
 }
 
 .sak-bilde{
     width: 230px;
-    height: 100%;
+    height: 90%;
     background-image: url(Pictures/Kampanje\ blide-1.jpg);
     background-size: cover;
     border-radius: 10px;
 }
 
+.sak-bilde :hover{
+    transform: scale(0.01);
+}
+
 .sak{
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: column;
 }
 
 .sak-innhold {
     border-radius: 5px;
-    background-color: aliceblue;
     height: 65%;
     width: 230px;
+    transition: 1s;
     
+}
+
+.footer{
+    background-color: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
 }
