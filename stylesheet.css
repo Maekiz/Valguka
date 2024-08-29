@@ -24,7 +24,25 @@
     align-items: center;
     justify-content: center;
 }
+
+.Header button a{
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
 .Header button:hover{
+    color: rgb(111, 209, 176);
+    background-color: white;
+}
+.Header button a:hover{
     color: rgb(111, 209, 176);
     background-color: white;
 }
@@ -108,6 +126,7 @@
 
 .sak-bilde :hover{
     transform: scale(0.01);
+    cursor: pointer;
 }
 
 .sak{
@@ -128,9 +147,33 @@
 }
 
 .footer{
-    background-color: ;
+    color: rgb(0, 0, 0);
+    background-color: rgb(111, 209, 176);
+    height:300px;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+.kontaktinfo{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
     justify-content: space-evenly;
+}
+.sosiale-medier{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+.logo img{
+    background-image: url(Pictures/MainAfter.webp);
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
 }
