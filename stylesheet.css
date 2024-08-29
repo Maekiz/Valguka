@@ -25,6 +25,11 @@
     justify-content: center;
 }
 
+.header-logo{
+    height: 30%;
+    width: 30%;
+}
+
 .Header button a{
     font-size: 20px;
     height: 50px;
@@ -36,6 +41,10 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+}
+
+.Header button a img{
+    height: 130%;
 }
 
 .Header button:hover{
